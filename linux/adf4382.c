@@ -69,6 +69,9 @@
 /* ADF4382 REG000D Bit Definition */
 #define ADF4382_VENDOR_ID_MSB		0x04
 
+/* ADF4382 REG000F Bit Definition */
+#define ADF4382_M_S_TRANSF_BIT_MSK	BIT(0)
+
 /* ADF4382 REG0010 Map*/
 #define ADF4382_N_INT_LSB_MSK		GENMASK(7, 0)
 
